@@ -131,18 +131,17 @@
 
 <form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
 	<!-- Name -->
-	Name: <input type="text" name="name"/><br/>
+	name: <input type="text" name="name"/><br/>
 	<!-- Email field (required) -->
-	Email: <input type="text" name="email"/><br/>
+	email: <input type="text" name="email"/><br/>
+	<input id="webform_consent#hYdZ_0" type="checkbox" name="webform[consent#hYdZ-ver#GQB1]" value="true"/> <label for="webform_consent#hYdZ_0">I agree and accept the terms</label> <br/>
 	<!-- List token -->
 	<!-- Get the token at: https://app.getresponse.com/campaign_list.html -->
 	<input type="hidden" name="campaign_token" value="r8Rb8" />
-	<!-- Thank you page (optional) -->
-	<input type="hidden" name="thankyou_url" value=""/>
 	<!-- Add subscriber to the follow-up sequence with a specified day (optional) -->
 	<input type="hidden" name="start_day" value="0" />
 	<!-- Subscriber button -->
-    <input type="submit" value="Send me My Copy"/>
+	<input type="submit" value="Send me My copy"/>
 </form>
       </div>
       <div class="modal-footer" class="modal-footer">
