@@ -129,8 +129,19 @@
         Enter your email below so we can add you to our newsletter and send you a free copy of the Attraction Triggers.
         <br />  <br />
 
-       Enter Your Newsletter Opt-In Code Here
-
+<form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
+	<!-- Name -->
+	name: <input type="text" name="name"/><br/>
+	<!-- Email field (required) -->
+	email: <input type="text" name="email"/><br/>
+	<!-- List token -->
+	<!-- Get the token at: https://app.getresponse.com/campaign_list.html -->
+	<input type="hidden" name="campaign_token" value="r8Rb8" />
+	<!-- Add subscriber to the follow-up sequence with a specified day (optional) -->
+	<input type="hidden" name="start_day" value="0" />
+	<!-- Subscriber button -->
+	<input type="submit" value="Yes, I'd Love a Copy"/>
+</form>
       </div>
       <div class="modal-footer" class="modal-footer">
         We respect your privacy and will never send you junk email.
