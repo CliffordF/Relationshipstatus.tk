@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -84,7 +83,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6 book">
-        <br /><img src="images/book-min.png" alt="Attraction Triggers">
+        <br /><img src="images/attraction-triggers.png
+" alt="Attraction Triggers">
       </div>
       <div class="col-lg-6 content-lp text-center pt-5 order-md-first">
         <h4>READ THIS <span>FREE EBOOK</span></h4>
@@ -107,7 +107,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 footer">
-        <a href="#">Contact Us</a> - <a href="#">Terms & Conditions</a> - <a href="#">Privacy Policy</a> <br />
+        <a href="#">Contact Us</a> - <a href="https://www.termsfeed.com/live/f0bbfd91-db2f-477e-8628-c95d504aedee">Terms & Conditions</a> - <a href="https://www.termsfeed.com/live/7e6375a2-b3f1-4889-b6c4-2185b5731103">Privacy Policy</a> <br />
         © 2020 Your Website
       </div>
     </div>
@@ -130,8 +130,20 @@
         Enter your email below so we can add you to our newsletter and send you a free copy of the Attraction Triggers.
         <br />  <br />
 
-       Enter Your Newsletter Opt-In Code Here
-
+<form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
+	<!-- Name -->
+	name: <input type="text" name="name"/><br/>
+	<!-- Email field (required) -->
+	email: <input type="text" name="email"/><br/>
+	<input id="webform_consent#hYdZ_0" type="checkbox" name="webform[consent#hYdZ-ver#GQB1]" value="true"/> <label for="webform_consent#hYdZ_0">I agree and accept the terms</label> <br/>
+	<!-- List token -->
+	<!-- Get the token at: https://app.getresponse.com/campaign_list.html -->
+	<input type="hidden" name="campaign_token" value="r8Rb8" />
+	<!-- Add subscriber to the follow-up sequence with a specified day (optional) -->
+	<input type="hidden" name="start_day" value="0" />
+	<!-- Subscriber button -->
+	<input type="submit" value="Subscribe"/>
+</form>
       </div>
       <div class="modal-footer" class="modal-footer">
         We respect your privacy and will never send you junk email.
