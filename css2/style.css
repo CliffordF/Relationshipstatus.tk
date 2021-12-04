@@ -33,7 +33,7 @@ max-width:100%;
     margin-bottom: 20px;
 }
 #main-banner{
-  background-image: url('../images/banner-bg.jpg');
+  background-image: url('../images2/banner-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 0;
@@ -58,7 +58,7 @@ max-width:100%;
     padding: 60px 0;
 }
 .third-section-bg{
-  background-image: url(../images/third-section-bg.jpg);
+  background-image: url(../images2/third-section-bg.jpg);
   background-position: center;
   height: 100%;
   position: absolute;
@@ -76,7 +76,7 @@ max-width:100%;
   background-color: #FBF8F5;
 }
 .fifth-section-bg{
-  background-image: url(../images/fifth-section-bg.jpg);
+  background-image: url(../images2/fifth-section-bg.jpg);
   background-position: right;
   background-position: top;
   height: 100%;
@@ -103,7 +103,7 @@ max-width:100%;
     position: relative;
 }
 .eighth-section-bg{
-  background-image: url(../images/eighth-section-bg.jpg);
+  background-image: url(../images2/eighth-section-bg.jpg);
   background-position: center;
   height: 100%;
   position: absolute;
@@ -122,7 +122,7 @@ max-width:100%;
   background-color: #FBF8F5;
 }
 .tenth-section-bg{
-  background-image: url(../images/tenth-section-bg.jpg);
+  background-image: url(../images2/tenth-section-bg.jpg);
   background-position: right;
   background-position: top;
   height: 100%;
@@ -140,7 +140,7 @@ max-width:100%;
   position: relative;
 }
 .eleventh-section-bg{
-  background-image: url(../images/eleventh-section-bg.jpg);
+  background-image: url(../images2/eleventh-section-bg.jpg);
   background-position: left;
   height: 100%;
   position: absolute;
